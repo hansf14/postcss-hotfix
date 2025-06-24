@@ -1,6 +1,6 @@
 {
 	"name": "@hansf14/postcss-hotfix",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"author": "hansf14 <sam_h0117@hotmail.com>",
 	"license": "MIT",
 	"description": "TailwindCSS, PostCSS hotfix (bugfix).",

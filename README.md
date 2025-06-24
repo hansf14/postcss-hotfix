@@ -32,7 +32,7 @@ This plugin automatically removes trailing commas from:
   backdrop-filter: var(--tw-backdrop-blur,) var(--tw-backdrop-brightness,) var(--tw-backdrop-contrast,) var(--tw-backdrop-grayscale,) var(--tw-backdrop-hue-rotate,) var(--tw-backdrop-invert,) var(--tw-backdrop-opacity,) var(--tw-backdrop-saturate,) var(--tw-backdrop-sepia,);
 }
 ```
-![Before](/preview-screenshots/before.png)
+![Before](https://github.com/hansf14/postcss-hotfix/blob/main/preview-screenshots/before.png)
 
 **✅ After (Works everywhere)**
 ```css
@@ -40,7 +40,7 @@ This plugin automatically removes trailing commas from:
   backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }
 ```
-![After](/preview-screenshots/after.png)
+![After](https://github.com/hansf14/postcss-hotfix/blob/main/preview-screenshots/after.png)
 
 ## Installation
 
