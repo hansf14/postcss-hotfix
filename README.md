@@ -3,7 +3,7 @@
 > **PostCSS Hotfix for Tailwind CSS Safari Compatibility**
 
 Fixes **Safari rendering issues** caused by **trailing commas** in **Tailwind CSS generated variables**. This plugin ensures your **backdrop filters** and other CSS effects work consistently across all browsers.
-<br/>
+<br />
 Without this plugin, for example backdrop-filter breaks in some versions of Safari, due to the trailing commas in the generated CSS.
 Using this plugin will fix this kind of issues in TailwindCSS.
 
@@ -32,6 +32,7 @@ This plugin automatically removes trailing commas from:
   backdrop-filter: var(--tw-backdrop-blur,) var(--tw-backdrop-brightness,) var(--tw-backdrop-contrast,) var(--tw-backdrop-grayscale,) var(--tw-backdrop-hue-rotate,) var(--tw-backdrop-invert,) var(--tw-backdrop-opacity,) var(--tw-backdrop-saturate,) var(--tw-backdrop-sepia,);
 }
 ```
+![Before](/preview-screenshots/before.png)
 
 **✅ After (Works everywhere)**
 ```css
@@ -39,6 +40,7 @@ This plugin automatically removes trailing commas from:
   backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }
 ```
+![After](/preview-screenshots/after.png)
 
 ## Installation
 
@@ -55,7 +57,9 @@ pnpm add -D @hansf14/postcss-hotfix
 
 ## Usage
 
-Add the plugin to your PostCSS configuration:
+Add the plugin to your **PostCSS configuration**.
+<br />
+Don't forget to **restart your dev server** to apply the changes to your postcss config file!
 
 ### postcss.config.js
 ```js
