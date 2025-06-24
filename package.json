@@ -1,0 +1,30 @@
+{
+	"name": "@hansf14/postcss-hotfix",
+	"version": "0.0.1",
+	"author": "hansf14 <sam_h0117@hotmail.com>",
+	"license": "MIT",
+	"description": "TailwindCSS, PostCSS hotfix (bugfix).",
+	"keywords": [
+		"TailwindCSS",
+		"PostCSS",
+		"bugfix",
+		"hotfix",
+		"backdrop-filter",
+		"trailing commas"
+	],
+	"homepage": "https://github.com/hansf14/postcss-hotfix",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/hansf14/poscss-hotfix.git"
+	},
+	"bugs": {
+		"url": "https://github.com/hansf14/poscss-hotfix/issues"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"main": "index.js",
+	"scripts": {},
+	"dependencies": {},
+	"devDependencies": {}
+}
